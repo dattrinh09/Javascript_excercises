@@ -59,9 +59,9 @@ function makeSlideShow(slider){
     nextBtn.onclick = () => handleChangeSlide(1)
     prevBtn.onclick = () => handleChangeSlide(-1)
 
-    // setInterval(() => {
-    //     handleChangeSlide(1)
-    // }, 5000)
+    setInterval(() => {
+        handleChangeSlide(1)
+    }, 5000)
     
     //Change slide
     function handleChangeSlide(dir) {
